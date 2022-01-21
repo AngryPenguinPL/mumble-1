@@ -81,6 +81,7 @@ if(NOT APPLE)
 			PRIVATE
 				"-ldl"
 				"-lrt"
+				"-lGL"
 		)
 
 		if(TARGET overlay_gl_x86)
